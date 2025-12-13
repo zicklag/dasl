@@ -19,7 +19,11 @@ pub use self::de::from_reader;
 #[doc(inline)]
 pub use self::de::from_slice;
 #[doc(inline)]
+pub use self::de::from_value;
+#[doc(inline)]
 pub use self::error::{DecodeError, EncodeError};
+#[doc(inline)]
+pub use self::ser::to_value;
 #[doc(inline)]
 pub use self::ser::to_vec;
 #[doc(inline)]
